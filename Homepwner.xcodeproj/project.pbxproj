@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		A337A3F82421496F004C6941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337A3F72421496F004C6941 /* AppDelegate.swift */; };
 		A337A3FA2421496F004C6941 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337A3F92421496F004C6941 /* SceneDelegate.swift */; };
-		A337A3FC2421496F004C6941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337A3FB2421496F004C6941 /* ViewController.swift */; };
 		A337A3FF2421496F004C6941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A337A3FD2421496F004C6941 /* Main.storyboard */; };
 		A337A40124214971004C6941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A337A40024214971004C6941 /* Assets.xcassets */; };
 		A337A40424214971004C6941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A337A40224214971004C6941 /* LaunchScreen.storyboard */; };
 		A337A40F24214971004C6941 /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337A40E24214971004C6941 /* HomepwnerTests.swift */; };
 		A337A41A24214971004C6941 /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337A41924214971004C6941 /* HomepwnerUITests.swift */; };
+		A337A42924214E26004C6941 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337A42824214E26004C6941 /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		A337A3F42421496F004C6941 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A337A3F72421496F004C6941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A337A3F92421496F004C6941 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A337A3FB2421496F004C6941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A337A3FE2421496F004C6941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A337A40024214971004C6941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A337A40324214971004C6941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		A337A41524214971004C6941 /* HomepwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A337A41924214971004C6941 /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		A337A41B24214971004C6941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A337A42824214E26004C6941 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				A337A3F72421496F004C6941 /* AppDelegate.swift */,
 				A337A3F92421496F004C6941 /* SceneDelegate.swift */,
-				A337A3FB2421496F004C6941 /* ViewController.swift */,
 				A337A3FD2421496F004C6941 /* Main.storyboard */,
+				A337A42A242151DF004C6941 /* Controller */,
 				A337A40024214971004C6941 /* Assets.xcassets */,
 				A337A40224214971004C6941 /* LaunchScreen.storyboard */,
 				A337A40524214971004C6941 /* Info.plist */,
@@ -126,6 +126,14 @@
 				A337A41B24214971004C6941 /* Info.plist */,
 			);
 			path = HomepwnerUITests;
+			sourceTree = "<group>";
+		};
+		A337A42A242151DF004C6941 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A337A42824214E26004C6941 /* ItemsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A337A3FC2421496F004C6941 /* ViewController.swift in Sources */,
+				A337A42924214E26004C6941 /* ItemsViewController.swift in Sources */,
 				A337A3F82421496F004C6941 /* AppDelegate.swift in Sources */,
 				A337A3FA2421496F004C6941 /* SceneDelegate.swift in Sources */,
 			);
